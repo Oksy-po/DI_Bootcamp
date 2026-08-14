@@ -1,0 +1,17 @@
+.p1:nth-child(odd)
+{
+background-color: pink;font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#div1
+{
+color:blue;font-size: 36px;
+}
+.p2:nth-child(odd)
+{
+ background-color: pink;font-family: Verdana, "DejaVu Sans", sans-serif;font-size: 24px;   
+}
+#div2
+{
+    background-color: lightgreen;font-size: 24px;font-weight: bold;
+}
+

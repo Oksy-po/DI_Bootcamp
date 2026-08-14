@@ -1,0 +1,39 @@
+body {
+  background: #eee;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  padding: 8px;
+  margin: 48px auto; /* Centers the card on the page */
+}
+
+.title {
+  background: #e3f4ff;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.content {
+  background: #e3f4ff;
+  padding: 16px 8px; /* Top/Bottom 16px, Left/Right 8px */
+  margin-bottom: 8px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  padding: 8px;
+  text-align: center; /* Centers the "and a" text and button */
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  padding: 8px 24px;
+  margin: 8px auto 0; /* Creates space between "and a" and the button */
+  display: block;
+}
