@@ -14,10 +14,6 @@
 # Think about how you can access the elements of a 2D list by column.      
 # temporary_string = ""
 
-decoded_message = ""
-decoded_message=temporary_string+result
-print(decoded_message)
-
 MATRIX_STR = """7ir
 Tsi
 h%x
