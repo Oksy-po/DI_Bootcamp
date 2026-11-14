@@ -10,19 +10,17 @@
 // * * * * *
 // * * * * * *
 
-let star = "*"
-let stars=""
-for (let i=1; i <7; i ++){
-    stars = stars + star
-    console.log(stars)
-}
+let raw = "*";
+let starsInRaw="";
+for (let i=1; i <=6; i ++){
+    starsInRaw = starsInRaw +" " + raw
+    console.log(starsInRaw)
+};
 
-let secondStar = "*"
-
-for (let i = 1; i <= 7; i++) {
+for (let i = 1; i <= 6; i++) {
    let otherStars=""
   for (let j = 1; j<= i ; j++) {
-    otherStars=secondStar +otherStars
+    otherStars += raw + " "
   }
   console.log(otherStars)
-}
+};
